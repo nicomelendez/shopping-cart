@@ -26,7 +26,7 @@ export function Filters () {
   }
 
   return (
-    <section className='w-4/5 mx-auto py-6 flex justify-between items-center'>
+    <section className='w-full sm:w-4/5 mx-auto py-10 flex justify-between items-center'>
 
       <div>
         <label htmlFor={minPriceFilterId}>Precio a partir de:  </label>
